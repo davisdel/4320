@@ -7,8 +7,8 @@ add x5, x5, x6
 add x5, x5, x7
 sub x5, x5, x28
 
-addi a0, x0, 1
-addi a1, x0, 42
+addi x10, x0, 1
+add x11, x0, x5
 ecall
 
 #f = (g+h)-(i+j)
@@ -20,6 +20,6 @@ add x5, x5, x6
 add x7, x7, x28
 sub x5, x5, x7
 
-addi   a0, x0, 1
-addi   a1, x0, 42
+addi x10, x0, 1
+add x11, x0, x5
 ecall
