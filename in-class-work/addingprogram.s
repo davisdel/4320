@@ -24,4 +24,5 @@ addi x10, x0, 1
 add x11, x0, x5
 ecall
 
-nop
+li a0, 10
+ecall
